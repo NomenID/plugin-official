@@ -1,0 +1,20 @@
+{
+    "name": "Official release feed",
+    "version": "1.0.0",
+    "description": "Publishes /official-api/releases/latest from data/releases.json. Only the official Nomen site needs this plugin.",
+    "license": "Apache-2.0",
+    "author": [
+        "Yunyun (Wang Yaoze)"
+    ],
+    "requires": {
+        "Nomen": ">=1.6.0"
+    },
+    "autoload": {
+        "Nomen\\Plugin\\Official\\": "src/"
+    },
+    "boot": [
+        "Nomen\\Plugin\\Official\\Plugin",
+        "boot"
+    ],
+    "homepage": "https://nomenid.org/"
+}

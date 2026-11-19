@@ -1,0 +1,3 @@
+{
+  "Publishes /official-api/releases/latest from data/releases.json. Only the official Nomen site needs this plugin.": "从 data/releases.json 发布 /official-api/releases/latest。只有 Nomen 官方站需要这个插件。"
+}
