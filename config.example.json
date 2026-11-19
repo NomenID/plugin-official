@@ -1,0 +1,6 @@
+{
+    "base_path": "/official-api",
+    "routes": {
+        "releases/latest": "data/releases.json"
+    }
+}
